@@ -6,9 +6,9 @@ const Div = styled.div`
     width: 100%;
     text-align: center;
     background-color: #f1f1f1;
-    position: relative;
-    margin-top: -30px;
+    position: absolute;
     padding-top: 27px;
+    margin-top: -200px;
 `
 
 const Title = styled.h1`

@@ -38,7 +38,7 @@ const H1 = styled.h1`
 
 export default function Count(){
 
-    const [count, setCount] = useState(1)
+    const [count, setCount] = useState(0)
 
 
     const min = () => {
