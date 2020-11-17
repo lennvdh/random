@@ -21,7 +21,9 @@ const H1 = styled.h1`
 const PokeImg = styled.img`
     position: relative;
     margin-top: 100px;
-    margin-left: 10px;
+    margin-left: 30px;
+    width: 230px;
+    height: 200px;
 `
 
 const Div = styled.div`

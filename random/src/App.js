@@ -1,7 +1,9 @@
 import {Route, BrowserRouter as Router, Link} from 'react-router-dom';
-import styled from 'styled-components';
-import Hooks from './components/hooks/Hooks';
+import styled from 'styled-components'
+import Hooks from './components/hooks/Hooks'
 import Home from './components/Home'
+import Styled from './components/styled/Styled'
+import CustomeHooks from './components/customehooks/CustomeHooks';
 
 
 const Div = styled.div`
@@ -41,11 +43,15 @@ function App() {
     <Div className="App">
       <Router>
         <Ul>
-          <LiLeft><Link to={"/"}>Home</Link></LiLeft>
-          <LiRight><Link to={"/Hooks"}>Hooks</Link></LiRight>
+          <LiLeft><Link style={{textDecoration: 'none'}} to={"/"}>Home</Link></LiLeft>
+          <LiRight><Link style={{textDecoration: 'none'}} to={"/Styled"}>Styled</Link></LiRight>
+          <LiRight><Link style={{textDecoration: 'none'}} to={"/Hooks"}>Hooks</Link></LiRight>
+          <LiRight><Link style={{textDecoration: 'none'}} to={"/CustomeHooks"}>Custome Hooks</Link></LiRight>
         </Ul>
         <Route path="/" exact component={Home}></Route>
         <Route path="/Hooks" exact component={Hooks}></Route>
+        <Route path="/Styled" exact component={Styled}></Route>
+        <Route path="/CustomeHooks" exact component={CustomeHooks}></Route>
       </Router>
 
 

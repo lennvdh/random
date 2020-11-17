@@ -26,6 +26,7 @@ const Result = styled.h2`
 export default function RandomNumberGame(){
     const [randomNumber, setRandomNumber] = useState(0);
     const [chosenNumber, setChosenNumber] = useState('');
+
     let generator = Math.floor(Math.random() * 100)
 
     const random = () => {
