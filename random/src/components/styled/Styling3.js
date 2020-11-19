@@ -32,8 +32,8 @@ const Div = styled.div`
     position: relative;
     top: -750px;
     left: 300px;
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     border-radius: 10%;
     background-color: #2abb9b;
     animation: ${Breath} 2s ease-in infinite, ${Rotate} 2s linear infinite, ${ChangingColor} 20s infinite;

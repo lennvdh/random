@@ -25,7 +25,7 @@ const H3 = styled.h3`
 export default function EnableInputField() {
     const [name, setName] = useState('');
     const [disable, setDisable] = useState("Disable");
-    const [btnText, setBtnText] = useState("Enable")
+    const [btnText, setBtnText] = useState("Enable");
 
     const enableBtn = () => {
         if(disable === "Disable"){

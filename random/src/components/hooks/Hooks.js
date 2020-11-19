@@ -12,7 +12,6 @@ export default function Hooks() {
             <UseReducer/>
             <UseRef/>
             <EnableInputField/>
-            <Form/>
         </div>
     )
 }

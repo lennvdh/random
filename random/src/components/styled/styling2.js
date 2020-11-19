@@ -15,12 +15,9 @@ const Div = styled.div`
     width: 350px;
 `
 
-const Img = styled.img`
+const Imgdiv = styled.div`
     height: 100%;
     width: 100%;
-    &:hover{
-        opacity: 0%;
-    }
 `
 
 const ImgLuffy = styled.img`
@@ -42,7 +39,7 @@ const ImgZoro = styled.img`
 export default function Styling2() {
     return (
         <Div>
-            <Img src={shcrew} alt="picture"/>
+            <Imgdiv></Imgdiv>
             <ImgLuffy src={luffy}/>
             <ImgZoro src={zoro}/>
         </Div>

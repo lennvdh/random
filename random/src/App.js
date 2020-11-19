@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import Hooks from './components/hooks/Hooks'
 import Home from './components/Home'
 import Styled from './components/styled/Styled'
-import CustomeHooks from './components/customehooks/CustomeHooks';
+import CustomHooks from './components/customhooks/CustomHooks';
 
 
 const Div = styled.div`
@@ -46,12 +46,12 @@ function App() {
           <LiLeft><Link style={{textDecoration: 'none'}} to={"/"}>Home</Link></LiLeft>
           <LiRight><Link style={{textDecoration: 'none'}} to={"/Styled"}>Styled</Link></LiRight>
           <LiRight><Link style={{textDecoration: 'none'}} to={"/Hooks"}>Hooks</Link></LiRight>
-          <LiRight><Link style={{textDecoration: 'none'}} to={"/CustomeHooks"}>Custome Hooks</Link></LiRight>
+          <LiRight><Link style={{textDecoration: 'none'}} to={"/CustomHooks"}>Custom Hooks</Link></LiRight>
         </Ul>
         <Route path="/" exact component={Home}></Route>
         <Route path="/Hooks" exact component={Hooks}></Route>
         <Route path="/Styled" exact component={Styled}></Route>
-        <Route path="/CustomeHooks" exact component={CustomeHooks}></Route>
+        <Route path="/CustomHooks" exact component={CustomHooks}></Route>
       </Router>
 
 
